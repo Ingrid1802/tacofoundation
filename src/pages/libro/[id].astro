@@ -11,6 +11,7 @@ export async function getStaticPaths(){
   }));
 }
 
+
 const { book } = Astro.props;
 const { slug, data } = book;
 const { title, author, img, description, github, huggingface } = data;
